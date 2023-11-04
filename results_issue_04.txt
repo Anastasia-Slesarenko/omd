@@ -1,0 +1,10 @@
+python -m pytest -v test_fit_transform_pytest.py
+=============================================================== test session starts ===============================================================
+collected 4 items
+
+test_fit_transform_pytest.py::test_hello_world PASSED                                                                                        [ 25%]
+test_fit_transform_pytest.py::test_empty_string PASSED                                                                                       [ 50%]
+test_fit_transform_pytest.py::test_not_iterable PASSED                                                                                       [ 75%]
+test_fit_transform_pytest.py::test_without_arguments PASSED                                                                                  [100%]
+
+================================================================ 4 passed in 0.07s ================================================================

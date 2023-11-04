@@ -1,0 +1,10 @@
+python -m pytest -v test_decode.py
+=============================================================== test session starts ===============================================================
+collected 4 items
+
+test_decode.py::test_morse[... --- ...-SOS] PASSED                                                                                           [ 25%]
+test_decode.py::test_morse[-- -.-- -....- - . ... - ...-MY-TESTS] PASSED                                                                     [ 50%]
+test_decode.py::test_morse[-.--. ..--.. -.--.--(?)] PASSED                                                                                   [ 75%]
+test_decode.py::test_morse[-] PASSED                                                                                                         [100%]
+
+================================================================ 4 passed in 0.03s ================================================================
