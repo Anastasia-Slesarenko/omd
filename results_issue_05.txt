@@ -1,0 +1,24 @@
+python -m unittest test_what_is_year_now.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK
+
+python -m coverage run -m unittest test_what_is_year_now.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.013s
+
+OK
+
+python -m coverage report
+Name                       Stmts   Miss  Cover
+----------------------------------------------
+test_what_is_year_now.py      28      0   100%
+what_is_year_now.py           19      0   100%
+----------------------------------------------
+TOTAL                         47      0   100%
+
+python -m coverage html
+Wrote HTML report to htmlcov\index.html

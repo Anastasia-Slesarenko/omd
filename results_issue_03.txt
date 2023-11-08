@@ -1,0 +1,4 @@
+python -m unittest test_fit_transform_unit.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
